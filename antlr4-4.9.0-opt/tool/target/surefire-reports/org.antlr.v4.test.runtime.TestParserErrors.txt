@@ -1,0 +1,310 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.TestParserErrors
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 34, Errors: 0, Skipped: 0, Time elapsed: 0.451 sec <<< FAILURE! - in org.antlr.v4.test.runtime.TestParserErrors
+testSingleTokenDeletionBeforeLoop(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletionBeforeLoop(TestParserErrors.java:492)
+
+testConjuringUpToken(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testConjuringUpToken(TestParserErrors.java:22)
+
+testInvalidEmptyInput(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testInvalidEmptyInput(TestParserErrors.java:207)
+
+testSingleTokenDeletionBeforeLoop2(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletionBeforeLoop2(TestParserErrors.java:512)
+
+testLL2(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testLL2(TestParserErrors.java:257)
+
+testLL3(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testLL3(TestParserErrors.java:278)
+
+testExtraneousInput(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testExtraneousInput(TestParserErrors.java:168)
+
+testSingleTokenDeletionConsumption(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletionConsumption(TestParserErrors.java:554)
+
+testSingleTokenDeletionExpectingSet(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletionExpectingSet(TestParserErrors.java:608)
+
+testSingleSetInsertion(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleSetInsertion(TestParserErrors.java:416)
+
+testSingleTokenDeletionDuringLoop2(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletionDuringLoop2(TestParserErrors.java:590)
+
+testMultiTokenDeletionDuringLoop(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testMultiTokenDeletionDuringLoop(TestParserErrors.java:353)
+
+testTokenMismatch(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testTokenMismatch(TestParserErrors.java:644)
+
+testConjuringUpTokenFromSet(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testConjuringUpTokenFromSet(TestParserErrors.java:40)
+
+testLL1ErrorInfo(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testLL1ErrorInfo(TestParserErrors.java:237)
+
+testMultiTokenDeletionBeforeLoop(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testMultiTokenDeletionBeforeLoop(TestParserErrors.java:317)
+
+testContextListGetters(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testContextListGetters(TestParserErrors.java:67)
+
+testTokenMismatch2(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testTokenMismatch2(TestParserErrors.java:669)
+
+testTokenMismatch3(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testTokenMismatch3(TestParserErrors.java:708)
+
+testSingleTokenDeletionBeforePredict(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletionBeforePredict(TestParserErrors.java:535)
+
+testSingleTokenDeletion(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletion(TestParserErrors.java:453)
+
+testMultiTokenDeletionBeforeLoop2(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testMultiTokenDeletionBeforeLoop2(TestParserErrors.java:335)
+
+testDuplicatedLeftRecursiveCall_1(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.021 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testDuplicatedLeftRecursiveCall_1(TestParserErrors.java:87)
+
+testDuplicatedLeftRecursiveCall_2(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testDuplicatedLeftRecursiveCall_2(TestParserErrors.java:107)
+
+testDuplicatedLeftRecursiveCall_3(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testDuplicatedLeftRecursiveCall_3(TestParserErrors.java:127)
+
+testDuplicatedLeftRecursiveCall_4(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testDuplicatedLeftRecursiveCall_4(TestParserErrors.java:147)
+
+testSingleSetInsertionConsumption(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleSetInsertionConsumption(TestParserErrors.java:435)
+
+testMultiTokenDeletionDuringLoop2(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testMultiTokenDeletionDuringLoop2(TestParserErrors.java:373)
+
+testInvalidATNStateRemoval(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testInvalidATNStateRemoval(TestParserErrors.java:189)
+
+testLLStar(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testLLStar(TestParserErrors.java:299)
+
+testNoViableAltAvoidance(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testNoViableAltAvoidance(TestParserErrors.java:398)
+
+testSingleTokenDeletionDuringLoop(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletionDuringLoop(TestParserErrors.java:572)
+
+testSingleTokenDeletionBeforeAlt(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenDeletionBeforeAlt(TestParserErrors.java:474)
+
+testSingleTokenInsertion(org.antlr.v4.test.runtime.TestParserErrors)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestParserErrors.testSingleTokenInsertion(TestParserErrors.java:626)
+

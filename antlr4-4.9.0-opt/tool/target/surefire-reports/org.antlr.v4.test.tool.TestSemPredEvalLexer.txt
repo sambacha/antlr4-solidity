@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestSemPredEvalLexer
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestSemPredEvalLexer
+testIDvsEnum(org.antlr.v4.test.tool.TestSemPredEvalLexer)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestSemPredEvalLexer.testIDvsEnum(TestSemPredEvalLexer.java:43)
+
+testIDnotEnum(org.antlr.v4.test.tool.TestSemPredEvalLexer)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestSemPredEvalLexer.testIDnotEnum(TestSemPredEvalLexer.java:65)
+
+testDisableRule(org.antlr.v4.test.tool.TestSemPredEvalLexer)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestSemPredEvalLexer.testDisableRule(TestSemPredEvalLexer.java:22)
+
+testLexerInputPositionSensitivePredicates(org.antlr.v4.test.tool.TestSemPredEvalLexer)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestSemPredEvalLexer.testLexerInputPositionSensitivePredicates(TestSemPredEvalLexer.java:128)
+
+testEnumNotID(org.antlr.v4.test.tool.TestSemPredEvalLexer)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestSemPredEvalLexer.testEnumNotID(TestSemPredEvalLexer.java:81)
+
+testPredicatedKeywords(org.antlr.v4.test.tool.TestSemPredEvalLexer)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestSemPredEvalLexer.testPredicatedKeywords(TestSemPredEvalLexer.java:148)
+
+testIndent(org.antlr.v4.test.tool.TestSemPredEvalLexer)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestSemPredEvalLexer.testIndent(TestSemPredEvalLexer.java:99)
+

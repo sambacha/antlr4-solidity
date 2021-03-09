@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestXPath
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestXPath
+testBadRuleName(org.antlr.v4.test.tool.TestXPath)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestXPath.testBadRuleName(TestXPath.java:184)
+
+testBadSyntax(org.antlr.v4.test.tool.TestXPath)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestXPath.testBadSyntax(TestXPath.java:148)
+
+testBadTokenName(org.antlr.v4.test.tool.TestXPath)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestXPath.testBadTokenName(TestXPath.java:172)
+
+testWeirdChar(org.antlr.v4.test.tool.TestXPath)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestXPath.testWeirdChar(TestXPath.java:124)
+
+testWeirdChar2(org.antlr.v4.test.tool.TestXPath)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestXPath.testWeirdChar2(TestXPath.java:136)
+
+testValidPaths(org.antlr.v4.test.tool.TestXPath)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestXPath.testValidPaths(TestXPath.java:64)
+
+testMissingWordAtEnd(org.antlr.v4.test.tool.TestXPath)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestXPath.testMissingWordAtEnd(TestXPath.java:160)
+

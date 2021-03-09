@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestLexerActions
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestLexerActions
+testSkipCommand(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testSkipCommand(TestLexerActions.java:148)
+
+testMoreCommand(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testMoreCommand(TestLexerActions.java:163)
+
+testLexerModeAction(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testLexerModeAction(TestLexerActions.java:242)
+
+testCombinedCommand(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testCombinedCommand(TestLexerActions.java:192)
+
+testActionPlusCommand(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testActionPlusCommand(TestLexerActions.java:133)
+
+test2ActionsIn1Rule(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.test2ActionsIn1Rule(TestLexerActions.java:97)
+
+testEvalMultipleActions(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testEvalMultipleActions(TestLexerActions.java:81)
+
+testLexerPushPopModeAction(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testLexerPushPopModeAction(TestLexerActions.java:226)
+
+testFailingPredicateEvalIsNotCached(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testFailingPredicateEvalIsNotCached(TestLexerActions.java:277)
+
+testActionExecutedInDFA(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testActionExecutedInDFA(TestLexerActions.java:21)
+
+testAltActionsIn1Rule(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testAltActionsIn1Rule(TestLexerActions.java:118)
+
+testLexerMode(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testLexerMode(TestLexerActions.java:210)
+
+testTypeCommand(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testTypeCommand(TestLexerActions.java:178)
+
+testActionEvalsAtCorrectIndex(org.antlr.v4.test.tool.TestLexerActions)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerActions.testActionEvalsAtCorrectIndex(TestLexerActions.java:36)
+

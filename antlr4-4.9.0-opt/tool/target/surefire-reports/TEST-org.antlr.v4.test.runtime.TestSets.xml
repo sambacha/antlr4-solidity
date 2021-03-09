@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.antlr.v4.test.runtime.TestSets" time="0.095" tests="32" errors="0" skipped="0" failures="32">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.dir" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sbacha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="http.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/sbacha"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="sbacha"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+  </properties>
+  <testcase name="testUnicodeEscapedBMPSet" classname="org.antlr.v4.test.runtime.TestSets" time="0.001">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeEscapedBMPSet(TestSets.java:463)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635223
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnicodeEscapedSMPRangeSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeEscapedSMPRangeSet(TestSets.java:483)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635239
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testStarLexerSingleElement_1" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testStarLexerSingleElement_1(TestSets.java:388)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635257
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testStarLexerSingleElement_2" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testStarLexerSingleElement_2(TestSets.java:406)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635278
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testPlusLexerSingleElement" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testPlusLexerSingleElement(TestSets.java:316)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635293
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testRuleAsSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testRuleAsSet(TestSets.java:350)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635305
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnicodeEscapedSMPSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeEscapedSMPSet(TestSets.java:526)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635318
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNotCharSetWithLabel" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testNotCharSetWithLabel(TestSets.java:157)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331/T.g4]
+Message{errorType=V3_LEXER_LABEL, args=[h], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331/T.g4', line=3, charPosition=4}
+antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331/T.g4]
+Message{errorType=V3_LEXER_LABEL, args=[h], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635331/T.g4', line=3, charPosition=4}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnicodeEscapedBMPRangeSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeEscapedBMPRangeSet(TestSets.java:443)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635344
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNotCharSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testNotCharSet(TestSets.java:139)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635354
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnicodeUnescapedBMPSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeUnescapedBMPSet(TestSets.java:598)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635364
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testParserSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testParserSet(TestSets.java:298)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635376
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testOptionalSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testOptionalSet(TestSets.java:212)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635388
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLexerPlusSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testLexerPlusSet(TestSets.java:85)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635399
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testPlusSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testPlusSet(TestSets.java:333)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635410
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testParserNotToken" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testParserNotToken(TestSets.java:264)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635422
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testParserNotTokenWithLabel" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testParserNotTokenWithLabel(TestSets.java:281)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635432
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testComplementSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testComplementSet(TestSets.java:46)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635444
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNotCharSetWithRuleRef3" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testNotCharSetWithRuleRef3(TestSets.java:177)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635455
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLexerOptionalSet" classname="org.antlr.v4.test.runtime.TestSets" time="0.001">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testLexerOptionalSet(TestSets.java:67)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635467
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnicodeEscapedSMPRangeSetMismatch" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeEscapedSMPRangeSetMismatch(TestSets.java:503)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635479
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnicodeNegatedSMPSetIncludesBMPCodePoints" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeNegatedSMPSetIncludesBMPCodePoints(TestSets.java:562)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635491
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnicodeNegatedBMPSetIncludesSMPCodePoints" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeNegatedBMPSetIncludesSMPCodePoints(TestSets.java:544)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635503
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testUnicodeUnescapedBMPRangeSet" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testUnicodeUnescapedBMPRangeSet(TestSets.java:580)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635514
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testOptionalSingleElement" classname="org.antlr.v4.test.runtime.TestSets" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testOptionalSingleElement(TestSets.java:230)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635525
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testOptionalLexerSingleElement" classname="org.antlr.v4.test.runtime.TestSets" time="0.007">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testOptionalLexerSingleElement(TestSets.java:195)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635540
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testSeqDoesNotBecomeSet" classname="org.antlr.v4.test.runtime.TestSets" time="0.011">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testSeqDoesNotBecomeSet(TestSets.java:370)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635552
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetLiteral" classname="org.antlr.v4.test.runtime.TestSets" time="0.012">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testCharSetLiteral(TestSets.java:24)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635563
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNotChar" classname="org.antlr.v4.test.runtime.TestSets" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testNotChar(TestSets.java:121)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635575
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLexerStarSet" classname="org.antlr.v4.test.runtime.TestSets" time="0.013">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testLexerStarSet(TestSets.java:103)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635589
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testStarSet" classname="org.antlr.v4.test.runtime.TestSets" time="0.02">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testStarSet(TestSets.java:423)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635602
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testParserNotSet" classname="org.antlr.v4.test.runtime.TestSets" time="0.016">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSets.testParserNotSet(TestSets.java:247)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestSets-1615276635623
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+</testsuite>

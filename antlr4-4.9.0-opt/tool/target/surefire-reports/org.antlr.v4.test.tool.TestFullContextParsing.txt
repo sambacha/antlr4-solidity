@@ -1,0 +1,134 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestFullContextParsing
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 0.125 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestFullContextParsing
+testCtxSensitiveDFATwoDiffInputWithoutDFA(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveDFATwoDiffInputWithoutDFA(TestFullContextParsing.java:139)
+
+testAmbigYieldsCtxSensitiveDFA(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testAmbigYieldsCtxSensitiveDFA(TestFullContextParsing.java:32)
+
+testAmbiguityNoLoop(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testAmbiguityNoLoop(TestFullContextParsing.java:517)
+
+testLoopsSimulateTailRecursion(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testLoopsSimulateTailRecursion(TestFullContextParsing.java:491)
+
+testCtxSensitiveDFATwoDiffInputWithDFA(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveDFATwoDiffInputWithDFA(TestFullContextParsing.java:164)
+
+testFullContextIF_THEN_ELSEParseWithoutDFA(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testFullContextIF_THEN_ELSEParseWithoutDFA(TestFullContextParsing.java:247)
+
+testExprAmbiguity(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testExprAmbiguity(TestFullContextParsing.java:547)
+
+testCtxSensitiveWithDFA1(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveWithDFA(TestFullContextParsing.java:93)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveWithDFA1(TestFullContextParsing.java:99)
+
+testCtxSensitiveWithDFA2(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveWithDFA(TestFullContextParsing.java:93)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveWithDFA2(TestFullContextParsing.java:114)
+
+testFullContextIF_THEN_ELSEParseWithDFA(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testFullContextIF_THEN_ELSEParseWithDFA(TestFullContextParsing.java:350)
+
+testSLLSeesEOFInLLGrammarWithoutDFA(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testSLLSeesEOFInLLGrammarWithoutDFA(TestFullContextParsing.java:195)
+
+testCtxSensitiveWithoutDFA1(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveWithoutDFA(TestFullContextParsing.java:53)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveWithoutDFA1(TestFullContextParsing.java:58)
+
+testCtxSensitiveWithoutDFA2(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveWithoutDFA(TestFullContextParsing.java:53)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testCtxSensitiveWithoutDFA2(TestFullContextParsing.java:71)
+
+testSLLSeesEOFInLLGrammarWithDFA(org.antlr.v4.test.tool.TestFullContextParsing)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestFullContextParsing.testSLLSeesEOFInLLGrammarWithDFA(TestFullContextParsing.java:219)
+

@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.TestBaseContext
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in org.antlr.v4.test.runtime.TestBaseContext
+testLeftRecursiveWithMultipleElementLabels(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testLeftRecursiveWithMultipleElementLabels(TestBaseContext.java:401)
+
+testLeftRecursiveWithAltLabelAliasing(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testLeftRecursiveWithAltLabelAliasing(TestBaseContext.java:293)
+
+testBasic(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testBasic(TestBaseContext.java:77)
+
+testDerivedLeftRecursiveBaseNot(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testDerivedLeftRecursiveBaseNot(TestBaseContext.java:221)
+
+testLeftRecursiveWithAltLabels(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testLeftRecursiveWithAltLabels(TestBaseContext.java:365)
+
+testBasicWithAltLabels(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testBasicWithAltLabels(TestBaseContext.java:113)
+
+testLeftRecursive(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testLeftRecursive(TestBaseContext.java:257)
+
+testBasicWithElementLabels(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testBasicWithElementLabels(TestBaseContext.java:185)
+
+testLeftRecursiveWithSingleElementLabel(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testLeftRecursiveWithSingleElementLabel(TestBaseContext.java:437)
+
+testBasicWithElementLabelAliasing(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testBasicWithElementLabelAliasing(TestBaseContext.java:149)
+
+testBaseLeftRecursiveDerivedNot(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testBaseLeftRecursiveDerivedNot(TestBaseContext.java:41)
+
+testLeftRecursiveWithAltLabelAliasingAndElementLabels(org.antlr.v4.test.runtime.TestBaseContext)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestBaseContext.testLeftRecursiveWithAltLabelAliasingAndElementLabels(TestBaseContext.java:329)
+

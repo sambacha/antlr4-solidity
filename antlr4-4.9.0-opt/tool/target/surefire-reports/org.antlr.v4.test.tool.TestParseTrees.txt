@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestParseTrees
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestParseTrees
+testTokenAndRuleContextString(org.antlr.v4.test.tool.TestParseTrees)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestParseTrees.testTokenAndRuleContextString(TestParseTrees.java:22)
+
+test2AltLoop(org.antlr.v4.test.tool.TestParseTrees)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestParseTrees.test2AltLoop(TestParseTrees.java:64)
+
+test2Alts(org.antlr.v4.test.tool.TestParseTrees)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestParseTrees.test2Alts(TestParseTrees.java:50)
+
+testSync(org.antlr.v4.test.tool.TestParseTrees)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestParseTrees.testSync(TestParseTrees.java:126)
+
+testNoViableAlt(org.antlr.v4.test.tool.TestParseTrees)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestParseTrees.testNoViableAlt(TestParseTrees.java:111)
+
+testExtraToken(org.antlr.v4.test.tool.TestParseTrees)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestParseTrees.testExtraToken(TestParseTrees.java:96)
+
+testRuleRef(org.antlr.v4.test.tool.TestParseTrees)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestParseTrees.testRuleRef(TestParseTrees.java:79)
+
+testToken2(org.antlr.v4.test.tool.TestParseTrees)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestParseTrees.testToken2(TestParseTrees.java:36)
+

@@ -1,0 +1,229 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.TestFullContextParsing
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 25, Errors: 0, Skipped: 0, Time elapsed: 0.202 sec <<< FAILURE! - in org.antlr.v4.test.runtime.TestFullContextParsing
+testFullContextIF_THEN_ELSEParse_WithoutDFA_1(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithoutDFA_1(TestFullContextParsing.java:585)
+
+testFullContextIF_THEN_ELSEParse_WithoutDFA_2(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithoutDFA_2(TestFullContextParsing.java:614)
+
+testFullContextIF_THEN_ELSEParse_WithoutDFA_3(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithoutDFA_3(TestFullContextParsing.java:646)
+
+testFullContextIF_THEN_ELSEParse_WithoutDFA_4(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithoutDFA_4(TestFullContextParsing.java:679)
+
+testFullContextIF_THEN_ELSEParse_WithoutDFA_5(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithoutDFA_5(TestFullContextParsing.java:715)
+
+testFullContextIF_THEN_ELSEParse_WithoutDFA_6(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithoutDFA_6(TestFullContextParsing.java:752)
+
+testCtxSensitiveDFATwoDiffInputWithoutDFA(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testCtxSensitiveDFATwoDiffInputWithoutDFA(TestFullContextParsing.java:127)
+
+testAmbigYieldsCtxSensitiveDFA(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testAmbigYieldsCtxSensitiveDFA(TestFullContextParsing.java:29)
+
+testAmbiguityNoLoop(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testAmbiguityNoLoop(TestFullContextParsing.java:61)
+
+testLoopsSimulateTailRecursion(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testLoopsSimulateTailRecursion(TestFullContextParsing.java:792)
+
+testCtxSensitiveWithDFA_1(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testCtxSensitiveWithDFA_1(TestFullContextParsing.java:159)
+
+testCtxSensitiveWithDFA_2(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testCtxSensitiveWithDFA_2(TestFullContextParsing.java:191)
+
+testCtxSensitiveDFATwoDiffInputWithDFA(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testCtxSensitiveDFATwoDiffInputWithDFA(TestFullContextParsing.java:90)
+
+testFullContextIF_THEN_ELSEParse_WithDFA_1(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithDFA_1(TestFullContextParsing.java:355)
+
+testFullContextIF_THEN_ELSEParse_WithDFA_2(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithDFA_2(TestFullContextParsing.java:384)
+
+testFullContextIF_THEN_ELSEParse_WithDFA_3(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithDFA_3(TestFullContextParsing.java:418)
+
+testFullContextIF_THEN_ELSEParse_WithDFA_4(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithDFA_4(TestFullContextParsing.java:456)
+
+testFullContextIF_THEN_ELSEParse_WithDFA_5(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithDFA_5(TestFullContextParsing.java:499)
+
+testFullContextIF_THEN_ELSEParse_WithDFA_6(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testFullContextIF_THEN_ELSEParse_WithDFA_6(TestFullContextParsing.java:543)
+
+testSLLSeesEOFInLLGrammarWithoutDFA(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testSLLSeesEOFInLLGrammarWithoutDFA(TestFullContextParsing.java:851)
+
+testCtxSensitiveWithoutDFA_1(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testCtxSensitiveWithoutDFA_1(TestFullContextParsing.java:224)
+
+testCtxSensitiveWithoutDFA_2(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testCtxSensitiveWithoutDFA_2(TestFullContextParsing.java:254)
+
+testExprAmbiguity_1(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testExprAmbiguity_1(TestFullContextParsing.java:290)
+
+testExprAmbiguity_2(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testExprAmbiguity_2(TestFullContextParsing.java:323)
+
+testSLLSeesEOFInLLGrammarWithDFA(org.antlr.v4.test.runtime.TestFullContextParsing)  Time elapsed: 0.055 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestFullContextParsing.testSLLSeesEOFInLLGrammarWithDFA(TestFullContextParsing.java:819)
+

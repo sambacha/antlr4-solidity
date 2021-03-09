@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0.037" tests="20" errors="0" skipped="0" failures="15">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.dir" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sbacha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="http.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/sbacha"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="sbacha"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+  </properties>
+  <testcase name="testHiddenTokensNotSeenByTreePatternParser" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testHiddenTokensNotSeenByTreePatternParser(TestParseTreeMatcher.java:216)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276649983
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLabelGetsLastIDNode" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testLabelGetsLastIDNode(TestParseTreeMatcher.java:288)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276649994
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testTokenTextMatch" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testTokenTextMatch(TestParseTreeMatcher.java:354)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650002
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testChunking" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0"/>
+  <testcase name="testUnclosedTag" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0"/>
+  <testcase name="testIDNodeWithLabelMatches" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testIDNodeWithLabelMatches(TestParseTreeMatcher.java:266)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650012
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLRecursiveExpr" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0.001">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testLRecursiveExpr(TestParseTreeMatcher.java:410)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650019
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testIDNodeWithMultipleLabelMatches" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testIDNodeWithMultipleLabelMatches(TestParseTreeMatcher.java:310)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650031
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCompilingPatternConsumesAllTokens" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testCompilingPatternConsumesAllTokens(TestParseTreeMatcher.java:141)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650038
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testTokenizingPattern" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testTokenizingPattern(TestParseTreeMatcher.java:99)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650047
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testExtraClose" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0"/>
+  <testcase name="testDelimiters" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0"/>
+  <testcase name="testIDNodeMatches" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testIDNodeMatches(TestParseTreeMatcher.java:254)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650055
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testPatternMatchesStartRule2" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testPatternMatchesStartRule2(TestParseTreeMatcher.java:191)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650063
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCompilingMultipleTokens" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testCompilingMultipleTokens(TestParseTreeMatcher.java:235)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650071
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testAssign" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0.011">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testAssign(TestParseTreeMatcher.java:390)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650080
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testTokenAndRuleMatch" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0.009">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testTokenAndRuleMatch(TestParseTreeMatcher.java:339)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650094
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCompilingPattern" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0.008">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testCompilingPattern(TestParseTreeMatcher.java:120)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650103
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testInvertedTags" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0"/>
+  <testcase name="testPatternMatchesStartRule" classname="org.antlr.v4.test.tool.TestParseTreeMatcher" time="0.008">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testPatternMatchesStartRule(TestParseTreeMatcher.java:166)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestParseTreeMatcher-1615276650111
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+</testsuite>

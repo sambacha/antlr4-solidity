@@ -1,0 +1,179 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestLeftRecursionToolIssues
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 21, Errors: 0, Skipped: 4, Time elapsed: 0.345 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestLeftRecursionToolIssues
+testDeclarations(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testDeclarations(TestLeftRecursionToolIssues.java:298)
+
+testMultipleAlternativesWithCommonLabel(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testMultipleAlternativesWithCommonLabel(TestLeftRecursionToolIssues.java:463)
+
+testLabelsOnOpSubrule(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testLabelsOnOpSubrule(TestLeftRecursionToolIssues.java:401)
+
+testAmbigLR(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testAmbigLR(TestLeftRecursionToolIssues.java:511)
+
+testDirectCallToLeftRecursiveRule(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testDirectCallToLeftRecursiveRule(TestLeftRecursionToolIssues.java:59)
+
+testExpressions(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testExpressions(TestLeftRecursionToolIssues.java:188)
+
+testPrefixOpWithActionAndLabel(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testPrefixOpWithActionAndLabel(TestLeftRecursionToolIssues.java:484)
+
+testReturnValueAndActions(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testReturnValueAndActions(TestLeftRecursionToolIssues.java:319)
+
+testPrecedenceFilterConsidersContext(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testPrecedenceFilterConsidersContext(TestLeftRecursionToolIssues.java:638)
+
+testJavaExpressions(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testJavaExpressions(TestLeftRecursionToolIssues.java:267)
+
+testReturnValueAndActionsAndLabels(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.022 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testReturnValueAndActionsAndLabels(TestLeftRecursionToolIssues.java:428)
+
+testReturnValueAndActionsList1(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testReturnValueAndActionsList1(TestLeftRecursionToolIssues.java:351)
+
+testReturnValueAndActionsList2(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testReturnValueAndActionsList2(TestLeftRecursionToolIssues.java:383)
+
+testMultipleActions(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testMultipleActions(TestLeftRecursionToolIssues.java:663)
+
+testTernaryExpr(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testTernaryExpr(TestLeftRecursionToolIssues.java:130)
+
+testWhitespaceInfluence(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.051 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testWhitespaceInfluence(TestLeftRecursionToolIssues.java:613)
+
+testSemPred(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testSemPred(TestLeftRecursionToolIssues.java:84)
+
+testSimple(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testSimple(TestLeftRecursionToolIssues.java:30)
+
+testSemPredFailOption(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testSemPredFailOption(TestLeftRecursionToolIssues.java:100)
+
+testMultipleActionsPredicatesOptions(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testMultipleActionsPredicatesOptions(TestLeftRecursionToolIssues.java:687)
+
+testTernaryExprExplicitAssociativity(org.antlr.v4.test.tool.TestLeftRecursionToolIssues)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testTernaryExprExplicitAssociativity(TestLeftRecursionToolIssues.java:161)
+

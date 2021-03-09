@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.antlr.v4.test.tool.TestLexerExec" time="0.905" tests="36" errors="0" skipped="0" failures="36">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.dir" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sbacha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="http.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/sbacha"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="sbacha"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+  </properties>
+  <testcase name="testGreedyClosure" classname="org.antlr.v4.test.tool.TestLexerExec" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testGreedyClosure(TestLexerExec.java:147)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646343
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNonGreedyPositiveClosure" classname="org.antlr.v4.test.tool.TestLexerExec" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testNonGreedyPositiveClosure(TestLexerExec.java:190)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646350
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testGreedyConfigs" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.004">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testGreedyConfigs(TestLexerExec.java:319)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646356
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetInSet" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.005">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetInSet(TestLexerExec.java:470)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646363
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetRange" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetRange(TestLexerExec.java:486)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646368
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testRefToRuleDoesNotSetTokenNorEmitAnother" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testRefToRuleDoesNotSetTokenNorEmitAnother(TestLexerExec.java:32)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646374
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testEOFSuffixInFirstRule" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testEOFSuffixInFirstRule(TestLexerExec.java:410)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646380
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNonGreedyOptional" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.005">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testNonGreedyOptional(TestLexerExec.java:132)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646386
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetWithQuote2" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetWithQuote2(TestLexerExec.java:559)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646391
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testEOFByItself" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testEOFByItself(TestLexerExec.java:397)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646397
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetWithQuote" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.015">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetWithQuote(TestLexerExec.java:546)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646403
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testKeywordID" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testKeywordID(TestLexerExec.java:349)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646418
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNonGreedyTermination" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testNonGreedyTermination(TestLexerExec.java:90)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646424
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetPlus" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetPlus(TestLexerExec.java:442)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646430
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testGreedyPositiveClosure" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testGreedyPositiveClosure(TestLexerExec.java:176)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646436
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testRecursiveLexerRuleRefWithWildcardPlus1" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testRecursiveLexerRuleRefWithWildcardPlus1(TestLexerExec.java:263)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646442
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testRecursiveLexerRuleRefWithWildcardPlus2" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testRecursiveLexerRuleRefWithWildcardPlus2(TestLexerExec.java:286)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646448
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testRecursiveLexerRuleRefWithWildcardStar1" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.009">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testRecursiveLexerRuleRefWithWildcardStar1(TestLexerExec.java:214)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646453
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testRecursiveLexerRuleRefWithWildcardStar2" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.011">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testRecursiveLexerRuleRefWithWildcardStar2(TestLexerExec.java:237)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646463
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testActionPlacement" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.007">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testActionPlacement(TestLexerExec.java:302)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646474
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNonGreedyClosure" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testNonGreedyClosure(TestLexerExec.java:161)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646481
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testPositionAdjustingLexer" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.008">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testPositionAdjustingLexer(TestLexerExec.java:577)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646487
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNonGreedyConfigs" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testNonGreedyConfigs(TestLexerExec.java:333)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646495
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetNot" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetNot(TestLexerExec.java:457)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646501
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetWithEscapedChar" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.007">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetWithEscapedChar(TestLexerExec.java:531)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646507
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testGreedyOptional" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testGreedyOptional(TestLexerExec.java:118)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646514
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSet" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.007">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSet(TestLexerExec.java:427)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646520
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testParentheses" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testParentheses(TestLexerExec.java:76)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646527
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetWithMissingEndRange" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetWithMissingEndRange(TestLexerExec.java:505)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646533
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testHexVsID" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testHexVsID(TestLexerExec.java:372)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646539
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCharSetWithMissingEscapeChar" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.005">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testCharSetWithMissingEscapeChar(TestLexerExec.java:518)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646553
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testZeroLengthToken" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.007">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testZeroLengthToken(TestLexerExec.java:642)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558/L.g4]
+Message{errorType=EPSILON_TOKEN, args=[StringMode_Done], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558/L.g4', line=10, charPosition=1}
+antlr reports warnings from [-o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558/L.g4]
+Message{errorType=EPSILON_TOKEN, args=[StringMode_Done], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646558/L.g4', line=10, charPosition=1}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNonGreedyTermination2" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.005">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testNonGreedyTermination2(TestLexerExec.java:104)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646565
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLargeLexer" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.684">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testLargeLexer(TestLexerExec.java:612)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276646570
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testQuoteTranslation" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.005">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testQuoteTranslation(TestLexerExec.java:19)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276647254
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testSlashes" classname="org.antlr.v4.test.tool.TestLexerExec" time="0.005">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerExec.testSlashes(TestLexerExec.java:49)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLexerExec-1615276647259
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+</testsuite>

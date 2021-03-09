@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestParseTreeMatcher
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestParseTreeMatcher
+testHiddenTokensNotSeenByTreePatternParser(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testHiddenTokensNotSeenByTreePatternParser(TestParseTreeMatcher.java:216)
+
+testLabelGetsLastIDNode(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testLabelGetsLastIDNode(TestParseTreeMatcher.java:288)
+
+testTokenTextMatch(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testTokenTextMatch(TestParseTreeMatcher.java:354)
+
+testIDNodeWithLabelMatches(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testIDNodeWithLabelMatches(TestParseTreeMatcher.java:266)
+
+testLRecursiveExpr(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testLRecursiveExpr(TestParseTreeMatcher.java:410)
+
+testIDNodeWithMultipleLabelMatches(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testIDNodeWithMultipleLabelMatches(TestParseTreeMatcher.java:310)
+
+testCompilingPatternConsumesAllTokens(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testCompilingPatternConsumesAllTokens(TestParseTreeMatcher.java:141)
+
+testTokenizingPattern(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testTokenizingPattern(TestParseTreeMatcher.java:99)
+
+testIDNodeMatches(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testIDNodeMatches(TestParseTreeMatcher.java:254)
+
+testPatternMatchesStartRule2(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testPatternMatchesStartRule2(TestParseTreeMatcher.java:191)
+
+testCompilingMultipleTokens(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testCompilingMultipleTokens(TestParseTreeMatcher.java:235)
+
+testAssign(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testAssign(TestParseTreeMatcher.java:390)
+
+testTokenAndRuleMatch(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:431)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.checkPatternMatch(TestParseTreeMatcher.java:418)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testTokenAndRuleMatch(TestParseTreeMatcher.java:339)
+
+testCompilingPattern(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testCompilingPattern(TestParseTreeMatcher.java:120)
+
+testPatternMatchesStartRule(org.antlr.v4.test.tool.TestParseTreeMatcher)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestParseTreeMatcher.testPatternMatchesStartRule(TestParseTreeMatcher.java:166)
+

@@ -1,0 +1,206 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestCompositeGrammars
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 23, Errors: 0, Skipped: 0, Time elapsed: 0.482 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestCompositeGrammars
+testDelegatorAccessesDelegateMembers(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorAccessesDelegateMembers(TestCompositeGrammars.java:227)
+
+testDelegatorRuleOverridesDelegate(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorRuleOverridesDelegate(TestCompositeGrammars.java:420)
+
+testNestedComposite(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testNestedComposite(TestCompositeGrammars.java:727)
+
+testBigTreeOfImports(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testBigTreeOfImports(TestCompositeGrammars.java:641)
+
+testLexerDelegatorInvokesDelegateRule(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testLexerDelegatorInvokesDelegateRule(TestCompositeGrammars.java:494)
+
+testImportLexerWithOnlyFragmentRules(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportLexerWithOnlyFragmentRules(TestCompositeGrammars.java:808)
+
+testImportLeftRecursiveGrammar(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportLeftRecursiveGrammar(TestCompositeGrammars.java:855)
+
+testDelegatorRuleOverridesLookaheadInDelegate(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorRuleOverridesLookaheadInDelegate(TestCompositeGrammars.java:445)
+
+testBringInLiteralsFromDelegate(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testBringInLiteralsFromDelegate(TestCompositeGrammars.java:168)
+
+testCombinedImportsCombined(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testCombinedImportsCombined(TestCompositeGrammars.java:355)
+
+testImportedGrammarWithEmptyOptions(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportedGrammarWithEmptyOptions(TestCompositeGrammars.java:779)
+
+testDelegatesSeeSameTokenType2(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatesSeeSameTokenType2(TestCompositeGrammars.java:328)
+
+testDelegatorRuleOverridesDelegates(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorRuleOverridesDelegates(TestCompositeGrammars.java:469)
+
+testDelegatorInvokesDelegateRuleWithArgs(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorInvokesDelegateRuleWithArgs(TestCompositeGrammars.java:188)
+
+testKeywordVSIDOrder(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testKeywordVSIDOrder(TestCompositeGrammars.java:532)
+
+testDelegatesSeeSameTokenType(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatesSeeSameTokenType(TestCompositeGrammars.java:286)
+
+testLexerDelegatorRuleOverridesDelegate(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testLexerDelegatorRuleOverridesDelegate(TestCompositeGrammars.java:510)
+
+testDelegatorInvokesFirstVersionOfDelegateRule(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorInvokesFirstVersionOfDelegateRule(TestCompositeGrammars.java:249)
+
+testImportedRuleWithAction(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportedRuleWithAction(TestCompositeGrammars.java:761)
+
+testDelegatorInvokesDelegateRuleWithReturnStruct(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorInvokesDelegateRuleWithReturnStruct(TestCompositeGrammars.java:208)
+
+testImportLargeGrammar(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.197 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportLargeGrammar(TestCompositeGrammars.java:828)
+
+testDelegatorInvokesDelegateRule(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorInvokesDelegateRule(TestCompositeGrammars.java:152)
+
+test3LevelImport(org.antlr.v4.test.tool.TestCompositeGrammars)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.test3LevelImport(TestCompositeGrammars.java:579)
+

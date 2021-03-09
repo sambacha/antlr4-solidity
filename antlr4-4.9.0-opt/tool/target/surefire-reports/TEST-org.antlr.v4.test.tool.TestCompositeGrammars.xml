@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.478" tests="33" errors="0" skipped="0" failures="23">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.dir" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sbacha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="http.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/sbacha"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="sbacha"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+  </properties>
+  <testcase name="testRulesVisibleThroughMultilevelImport" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.003"/>
+  <testcase name="testDelegatorAccessesDelegateMembers" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorAccessesDelegateMembers(TestCompositeGrammars.java:227)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500/M.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500/M.g4', line=5, charPosition=4}
+antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500/M.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649500/M.g4', line=5, charPosition=4}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testDelegatorRuleOverridesDelegate" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorRuleOverridesDelegate(TestCompositeGrammars.java:420)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649510
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testNestedComposite" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.011">
+    <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testNestedComposite(TestCompositeGrammars.java:727)
+]]></failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520/G3.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[T4], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520/G3.g4', line=3, charPosition=3}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[T3], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520/G3.g4', line=3, charPosition=3}
+antlr reports warnings from [-o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520/G3.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[T4], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520/G3.g4', line=3, charPosition=3}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[T3], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649520/G3.g4', line=3, charPosition=3}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testBigTreeOfImports" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.012">
+    <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testBigTreeOfImports(TestCompositeGrammars.java:641)
+]]></failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649531
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLexerDelegatorInvokesDelegateRule" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.006">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testLexerDelegatorInvokesDelegateRule(TestCompositeGrammars.java:494)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649543
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testImportLexerWithOnlyFragmentRules" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.012">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportLexerWithOnlyFragmentRules(TestCompositeGrammars.java:808)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649549
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testImportLeftRecursiveGrammar" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.013">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportLeftRecursiveGrammar(TestCompositeGrammars.java:855)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649561
+dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649561
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testDelegatorRuleOverridesLookaheadInDelegate" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.013">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorRuleOverridesLookaheadInDelegate(TestCompositeGrammars.java:445)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649575
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testBringInLiteralsFromDelegate" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testBringInLiteralsFromDelegate(TestCompositeGrammars.java:168)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649588
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCombinedImportsCombined" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testCombinedImportsCombined(TestCompositeGrammars.java:355)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649599
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testImportedTokenVocabIgnoredWithWarning" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.003"/>
+  <testcase name="testImportFileLocationInSubdir" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.009"/>
+  <testcase name="testErrorInImportedGetsRightFilename" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.007"/>
+  <testcase name="testImportedGrammarWithEmptyOptions" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportedGrammarWithEmptyOptions(TestCompositeGrammars.java:779)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649633
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testDelegatesSeeSameTokenType2" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.015">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatesSeeSameTokenType2(TestCompositeGrammars.java:328)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4]
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[A], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=9}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=12}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[C], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=15}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[C], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=9}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=12}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[A], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=15}
+antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4]
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[A], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=9}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=12}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[C], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=15}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[C], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=9}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=12}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[A], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649643/M.g4', line=2, charPosition=15}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testDelegatorRuleOverridesDelegates" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.011">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorRuleOverridesDelegates(TestCompositeGrammars.java:469)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658/M.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658/M.g4', line=3, charPosition=41}
+antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658/M.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649658/M.g4', line=3, charPosition=41}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testImportFileNotSearchedForInOutputDir" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.004"/>
+  <testcase name="testHeadersPropogatedCorrectlyToImportedGrammars" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.007"/>
+  <testcase name="testDelegatorInvokesDelegateRuleWithArgs" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.011">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorInvokesDelegateRuleWithArgs(TestCompositeGrammars.java:188)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649680
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testImportSelfLoop" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.006"/>
+  <testcase name="testTokensFileInOutputDirAndImportFileInSubdir" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.008"/>
+  <testcase name="testKeywordVSIDOrder" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.009">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testKeywordVSIDOrder(TestCompositeGrammars.java:532)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649706
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testDelegatesSeeSameTokenType" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.011">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatesSeeSameTokenType(TestCompositeGrammars.java:286)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4]
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[A], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=9}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=12}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[C], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=15}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[C], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=9}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=12}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[A], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=15}
+antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4]
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[A], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=9}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=12}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[C], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=15}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[C], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=9}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[B], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=12}
+Message{errorType=TOKEN_NAME_REASSIGNMENT, args=[A], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649715/M.g4', line=2, charPosition=15}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLexerDelegatorRuleOverridesDelegate" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.005">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testLexerDelegatorRuleOverridesDelegate(TestCompositeGrammars.java:510)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649726
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testOutputDirShouldNotEffectImports" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.006"/>
+  <testcase name="testSyntaxErrorsInImportsNotThrownOut" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.002"/>
+  <testcase name="testDelegatorInvokesFirstVersionOfDelegateRule" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorInvokesFirstVersionOfDelegateRule(TestCompositeGrammars.java:249)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649739
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testImportedRuleWithAction" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.009">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportedRuleWithAction(TestCompositeGrammars.java:761)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649749
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testDelegatorInvokesDelegateRuleWithReturnStruct" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorInvokesDelegateRuleWithReturnStruct(TestCompositeGrammars.java:208)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649758
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testImportLargeGrammar" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.197">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testImportLargeGrammar(TestCompositeGrammars.java:828)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649768
+dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649768
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testDelegatorInvokesDelegateRule" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.007">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.testDelegatorInvokesDelegateRule(TestCompositeGrammars.java:152)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649965
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="test3LevelImport" classname="org.antlr.v4.test.tool.TestCompositeGrammars" time="0.007">
+    <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.antlr.v4.test.tool.TestCompositeGrammars.test3LevelImport(TestCompositeGrammars.java:579)
+]]></failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972/M.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[M], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972/M.g4', line=3, charPosition=4}
+antlr reports warnings from [-o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972/M.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[M], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestCompositeGrammars-1615276649972/M.g4', line=3, charPosition=4}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+</testsuite>

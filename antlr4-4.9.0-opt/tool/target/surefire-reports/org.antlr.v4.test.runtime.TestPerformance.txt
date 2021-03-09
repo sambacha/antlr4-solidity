@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.TestPerformance
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.219 sec <<< FAILURE! - in org.antlr.v4.test.runtime.TestPerformance
+testExpressionGrammar_1(org.antlr.v4.test.runtime.TestPerformance)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestPerformance.testExpressionGrammar_1(TestPerformance.java:294)
+
+testExpressionGrammar_2(org.antlr.v4.test.runtime.TestPerformance)  Time elapsed: 0.061 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestPerformance.testExpressionGrammar_2(TestPerformance.java:453)
+
+testDropLoopEntryBranchInLRRule_1(org.antlr.v4.test.runtime.TestPerformance)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestPerformance.testDropLoopEntryBranchInLRRule_1(TestPerformance.java:47)
+
+testDropLoopEntryBranchInLRRule_2(org.antlr.v4.test.runtime.TestPerformance)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestPerformance.testDropLoopEntryBranchInLRRule_2(TestPerformance.java:88)
+
+testDropLoopEntryBranchInLRRule_3(org.antlr.v4.test.runtime.TestPerformance)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestPerformance.testDropLoopEntryBranchInLRRule_3(TestPerformance.java:140)
+
+testDropLoopEntryBranchInLRRule_4(org.antlr.v4.test.runtime.TestPerformance)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestPerformance.testDropLoopEntryBranchInLRRule_4(TestPerformance.java:189)
+
+testDropLoopEntryBranchInLRRule_5(org.antlr.v4.test.runtime.TestPerformance)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestPerformance.testDropLoopEntryBranchInLRRule_5(TestPerformance.java:252)
+

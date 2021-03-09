@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615276762526
+Build-Jdk: 13.0.2
+Built-By: sbacha
+Bundle-Description: The ANTLR 4 Runtime (Optimized)
+Bundle-DocURL: http://tunnelvisionlabs.com
+Bundle-License: http://www.antlr.org/license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: ANTLR 4 Runtime (Optimized)
+Bundle-SymbolicName: com.tunnelvisionlabs.antlr4-runtime
+Bundle-Vendor: Tunnel Vision Laboratories, LLC
+Bundle-Version: 4.9.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.antlr.v4.runtime;version="4.9.0";uses:="org.antlr.v4
+ .runtime.atn,org.antlr.v4.runtime.dfa,org.antlr.v4.runtime.misc,org.ant
+ lr.v4.runtime.tree,org.antlr.v4.runtime.tree.pattern",org.antlr.v4.runt
+ ime.misc;version="4.9.0";uses:="javax.annotation.processing,javax.lang.
+ model,javax.lang.model.element,org.antlr.v4.runtime",org.antlr.v4.runti
+ me.tree;version="4.9.0";uses:="org.antlr.v4.runtime,org.antlr.v4.runtim
+ e.misc",org.antlr.v4.runtime.tree.xpath;version="4.9.0";uses:="org.antl
+ r.v4.runtime,org.antlr.v4.runtime.atn,org.antlr.v4.runtime.tree",org.an
+ tlr.v4.runtime.tree.pattern;version="4.9.0";uses:="org.antlr.v4.runtime
+ ,org.antlr.v4.runtime.misc,org.antlr.v4.runtime.tree",org.antlr.v4.runt
+ ime.dfa;version="4.9.0";uses:="org.antlr.v4.runtime,org.antlr.v4.runtim
+ e.atn",org.antlr.v4.runtime.atn;version="4.9.0";uses:="org.antlr.v4.run
+ time,org.antlr.v4.runtime.dfa,org.antlr.v4.runtime.misc"
+Implementation-Title: ANTLR 4 Runtime (Optimized)
+Implementation-Vendor: Tunnel Vision Laboratories, LLC
+Implementation-Vendor-Id: com.tunnelvisionlabs
+Implementation-Version: 4.9.0
+Import-Package: javax.annotation.processing,javax.lang.model,javax.lang.
+ model.element,javax.lang.model.type,javax.lang.model.util,javax.tools,o
+ rg.antlr.v4.runtime;version="[4.9,5)",org.antlr.v4.runtime.atn;version=
+ "[4.9,5)",org.antlr.v4.runtime.dfa;version="[4.9,5)",org.antlr.v4.runti
+ me.misc;version="[4.9,5)";resolution:=optional,org.antlr.v4.runtime.tre
+ e;version="[4.9,5)",org.antlr.v4.runtime.tree.pattern;version="[4.9,5)"
+ ,org.antlr.v4.runtime.tree.xpath;version="[4.9,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

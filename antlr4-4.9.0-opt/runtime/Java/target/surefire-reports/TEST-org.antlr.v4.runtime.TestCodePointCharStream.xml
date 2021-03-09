@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.antlr.v4.runtime.TestCodePointCharStream" time="0.016" tests="37" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sbacha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="user.home" value="/Users/sbacha"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="sbacha"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+  </properties>
+  <testcase name="consumingPastSingleLatinCodePointShouldThrow" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.007"/>
+  <testcase name="consumingSingleLatinCodePointShouldMoveIndex" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="singleLatinCodePointLookAheadShouldReturnCodePoint" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="lookBehindWithEmoji" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="lookBehindWithLatin" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="singleEmojiCodePointLookAheadShouldReturnCodePoint" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.001"/>
+  <testcase name="emptyBytesHasSize0" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.001"/>
+  <testcase name="singleEmojiCodePointLookAheadPastEndShouldReturnEOF" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="singleCJKCodePointLookAheadPastEndShouldReturnEOF" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="seekWithEmoji" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.001"/>
+  <testcase name="seekWithLatin" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="consumingPastEndOfEmojiCodePointWithShouldThrow" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.002"/>
+  <testcase name="singleCJKCodePointHasSize1" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="seekWithCJK" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="consumingSingleCJKCodePointShouldMoveIndex" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="singleLatinCodePointLookAheadPastEndShouldReturnEOF" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="getTextWithCJK" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="consumingPastSingleCJKCodePointShouldThrow" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.001"/>
+  <testcase name="singleLatinCodePointHasSize1" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="getTextWithEmoji" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="getTextWithLatin" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="consumingSingleEmojiCodePointShouldMoveIndex" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="lookAheadWithCJK" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="lookAheadWithEmoji" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="lookAheadWithLatin" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="smpContentsShouldUse32BitBuffer" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.001"/>
+  <testcase name="consumingEmptyStreamShouldThrow" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="toStringWithEmoji" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.001"/>
+  <testcase name="toStringWithLatin" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="toStringWithCJK" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="emptyBytesLookAheadReturnsEOF" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="bmpContentsShouldUse16BitBuffer" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0.001"/>
+  <testcase name="singleEmojiCodePointHasSize1" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="lookBehindWithCJK" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="multipleLatinCodePointsLookAheadShouldReturnCodePoints" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="asciiContentsShouldUse8BitBuffer" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+  <testcase name="singleCJKCodePointLookAheadShouldReturnCodePoint" classname="org.antlr.v4.runtime.TestCodePointCharStream" time="0"/>
+</testsuite>

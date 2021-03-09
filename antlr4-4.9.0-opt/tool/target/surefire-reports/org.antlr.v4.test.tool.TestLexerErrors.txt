@@ -1,0 +1,93 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestLexerErrors
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestLexerErrors
+testInvalidCharInToken(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testInvalidCharInToken(TestLexerErrors.java:87)
+
+testLexerExecDFA(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.TestLexerErrors.testLexerExecDFA(TestLexerErrors.java:178)
+
+testDFAToATNThatMatchesThenFailsInATN(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testDFAToATNThatMatchesThenFailsInATN(TestLexerErrors.java:139)
+
+testInvalidCharAtStartAfterDFACache(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testInvalidCharAtStartAfterDFACache(TestLexerErrors.java:73)
+
+testInvalidCharAtStart(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testInvalidCharAtStart(TestLexerErrors.java:20)
+
+testDFAToATNThatFailsBackToDFA(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testDFAToATNThatFailsBackToDFA(TestLexerErrors.java:118)
+
+testStringsEmbeddedInActions(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testStringsEmbeddedInActions(TestLexerErrors.java:36)
+
+testErrorInMiddle(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testErrorInMiddle(TestLexerErrors.java:154)
+
+testEnforcedGreedyNestedBrances(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testEnforcedGreedyNestedBrances(TestLexerErrors.java:55)
+
+testInvalidCharInTokenAfterDFACache(org.antlr.v4.test.tool.TestLexerErrors)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:616)
+	at org.antlr.v4.test.tool.TestLexerErrors.testInvalidCharInTokenAfterDFACache(TestLexerErrors.java:100)
+

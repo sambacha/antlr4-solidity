@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615276761016
+Build-Jdk: 13.0.2
+Built-By: sbacha
+Bundle-Description: A set of annotations used within the ANTLR 4 Runtime
+Bundle-DocURL: http://tunnelvisionlabs.com
+Bundle-License: http://www.antlr.org/license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: ANTLR 4 Runtime Annotations
+Bundle-SymbolicName: com.tunnelvisionlabs.antlr4-annotations
+Bundle-Vendor: Tunnel Vision Laboratories, LLC
+Bundle-Version: 4.9.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.antlr.v4.runtime.misc;version="4.9.0";uses:="javax.a
+ nnotation.processing,javax.lang.model,javax.lang.model.element"
+Implementation-Title: ANTLR 4 Runtime Annotations
+Implementation-Vendor: Tunnel Vision Laboratories, LLC
+Implementation-Vendor-Id: com.tunnelvisionlabs
+Implementation-Version: 4.9.0
+Import-Package: javax.annotation.processing,javax.lang.model,javax.lang.
+ model.element,javax.lang.model.type,javax.lang.model.util,javax.tools
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

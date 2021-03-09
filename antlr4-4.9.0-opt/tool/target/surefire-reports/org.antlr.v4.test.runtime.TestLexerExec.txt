@@ -1,0 +1,316 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.TestLexerExec
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 39, Errors: 0, Skipped: 0, Time elapsed: 1.645 sec <<< FAILURE! - in org.antlr.v4.test.runtime.TestLexerExec
+testUnicodeCharSet(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testUnicodeCharSet(TestLexerExec.java:4971)
+
+testGreedyClosure(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testGreedyClosure(TestLexerExec.java:347)
+
+testNonGreedyPositiveClosure(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testNonGreedyPositiveClosure(TestLexerExec.java:4578)
+
+testGreedyConfigs(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testGreedyConfigs(TestLexerExec.java:367)
+
+testCharSetInSet(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetInSet(TestLexerExec.java:74)
+
+testCharSetRange(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetRange(TestLexerExec.java:144)
+
+testRefToRuleDoesNotSetTokenNorEmitAnother(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testRefToRuleDoesNotSetTokenNorEmitAnother(TestLexerExec.java:4926)
+
+testRecursiveLexerRuleRefWithWildcardPlus_1(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testRecursiveLexerRuleRefWithWildcardPlus_1(TestLexerExec.java:4822)
+
+testRecursiveLexerRuleRefWithWildcardPlus_2(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testRecursiveLexerRuleRefWithWildcardPlus_2(TestLexerExec.java:4847)
+
+testRecursiveLexerRuleRefWithWildcardStar_1(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testRecursiveLexerRuleRefWithWildcardStar_1(TestLexerExec.java:4875)
+
+testRecursiveLexerRuleRefWithWildcardStar_2(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testRecursiveLexerRuleRefWithWildcardStar_2(TestLexerExec.java:4900)
+
+testNonGreedyOptional(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testNonGreedyOptional(TestLexerExec.java:4556)
+
+testCharSetWithQuote1(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetWithQuote1(TestLexerExec.java:232)
+
+testCharSetWithQuote2(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetWithQuote2(TestLexerExec.java:252)
+
+testEOFByItself(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testEOFByItself(TestLexerExec.java:272)
+
+testKeywordID(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testKeywordID(TestLexerExec.java:466)
+
+testCharSetPlus(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetPlus(TestLexerExec.java:118)
+
+testGreedyPositiveClosure(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testGreedyPositiveClosure(TestLexerExec.java:410)
+
+testActionPlacement(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testActionPlacement(TestLexerExec.java:27)
+
+testNonGreedyClosure(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testNonGreedyClosure(TestLexerExec.java:4511)
+
+testPositionAdjustingLexer(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testPositionAdjustingLexer(TestLexerExec.java:4774)
+
+testNonGreedyConfigs(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testNonGreedyConfigs(TestLexerExec.java:4532)
+
+testEOFSuffixInFirstRule_1(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testEOFSuffixInFirstRule_1(TestLexerExec.java:292)
+
+testEOFSuffixInFirstRule_2(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testEOFSuffixInFirstRule_2(TestLexerExec.java:310)
+
+testCharSetNot(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetNot(TestLexerExec.java:96)
+
+testCharSetWithEscapedChar(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetWithEscapedChar(TestLexerExec.java:170)
+
+testGreedyOptional(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testGreedyOptional(TestLexerExec.java:389)
+
+testCharSet(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSet(TestLexerExec.java:52)
+
+testParentheses(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testParentheses(TestLexerExec.java:4639)
+
+testCharSetWithMissingEndRange(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetWithMissingEndRange(TestLexerExec.java:192)
+
+testHexVsID(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testHexVsID(TestLexerExec.java:434)
+
+testCharSetWithMissingEscapeChar(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testCharSetWithMissingEscapeChar(TestLexerExec.java:212)
+
+testZeroLengthToken(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testZeroLengthToken(TestLexerExec.java:4996)
+
+testNonGreedyTermination1(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testNonGreedyTermination1(TestLexerExec.java:4597)
+
+testNonGreedyTermination2(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testNonGreedyTermination2(TestLexerExec.java:4616)
+
+testLargeLexer(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 1.231 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testLargeLexer(TestLexerExec.java:4490)
+
+testQuoteTranslation(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testQuoteTranslation(TestLexerExec.java:4800)
+
+testEscapeTargetStringLiteral(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testEscapeTargetStringLiteral(TestLexerExec.java:328)
+
+testSlashes(org.antlr.v4.test.runtime.TestLexerExec)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execLexer(BaseTest.java:629)
+	at org.antlr.v4.test.runtime.TestLexerExec.testSlashes(TestLexerExec.java:4950)
+

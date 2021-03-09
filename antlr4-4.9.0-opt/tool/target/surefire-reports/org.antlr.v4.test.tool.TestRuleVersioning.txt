@@ -1,0 +1,135 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestRuleVersioning
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 12, Errors: 0, Skipped: 1, Time elapsed: 0.153 sec <<< FAILURE! - in org.antlr.v4.test.tool.TestRuleVersioning
+testClassDependencyFailed(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testClassDependencyFailed(TestRuleVersioning.java:118)
+
+testConstructorDependency(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testConstructorDependency(TestRuleVersioning.java:133)
+
+testMultipleDependencySingleGrammarFailed(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testMultipleDependencySingleGrammarFailed(TestRuleVersioning.java:92)
+
+testMultipleDependencySingleGrammarFailed2(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testMultipleDependencySingleGrammarFailed2(TestRuleVersioning.java:97)
+
+testConstructorDependencyFailed(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testConstructorDependencyFailed(TestRuleVersioning.java:138)
+
+testMethodDependencyFailed(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testMethodDependencyFailed(TestRuleVersioning.java:128)
+
+testSingleDependencyFailed(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testSingleDependencyFailed(TestRuleVersioning.java:82)
+
+testClassDependency(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testClassDependency(TestRuleVersioning.java:113)
+
+testSingleDependency(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testSingleDependency(TestRuleVersioning.java:77)
+
+testDependencyOnInvalidRule(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testDependencyOnInvalidRule(TestRuleVersioning.java:143)
+
+testMultipleDependencySingleGrammar(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testMultipleDependencySingleGrammar(TestRuleVersioning.java:87)
+
+testMethodDependency(org.antlr.v4.test.tool.TestRuleVersioning)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testGrammar(TestRuleVersioning.java:200)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testBasicGrammar(TestRuleVersioning.java:156)
+	at org.antlr.v4.test.tool.TestRuleVersioning.testMethodDependency(TestRuleVersioning.java:123)
+

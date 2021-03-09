@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.tool.TestUnbufferedCharStream
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0 sec - in org.antlr.v4.test.tool.TestUnbufferedCharStream

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.344" tests="27" errors="0" skipped="4" failures="21">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.dir" value="/Users/sbacha/antlr4/antlr4-4.9.0-opt"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sbacha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="http.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/sbacha"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="sbacha"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+  </properties>
+  <testcase name="testDeclarations" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testDeclarations(TestLeftRecursionToolIssues.java:298)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650120
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testMultipleAlternativesWithCommonLabel" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testMultipleAlternativesWithCommonLabel(TestLeftRecursionToolIssues.java:463)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650137
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLabelsOnOpSubrule" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testLabelsOnOpSubrule(TestLeftRecursionToolIssues.java:401)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650159
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testAmbigLR" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.019">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testAmbigLR(TestLeftRecursionToolIssues.java:511)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650173
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCheckForLeftRecursiveEmptyFollow" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.006"/>
+  <testcase name="testDirectCallToLeftRecursiveRule" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testDirectCallToLeftRecursiveRule(TestLeftRecursionToolIssues.java:59)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650199
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testCheckForNonLeftRecursiveRule" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.005"/>
+  <testcase name="testExpressions" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.016">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testExpressions(TestLeftRecursionToolIssues.java:188)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650214
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testPrefixOpWithActionAndLabel" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.012">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testPrefixOpWithActionAndLabel(TestLeftRecursionToolIssues.java:484)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650230
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testReturnValueAndActions" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.015">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testReturnValueAndActions(TestLeftRecursionToolIssues.java:319)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650242
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testPrecedenceFilterConsidersContext" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testPrecedenceFilterConsidersContext(TestLeftRecursionToolIssues.java:638)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650257
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testJavaExpressions" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.042">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testJavaExpressions(TestLeftRecursionToolIssues.java:267)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650271
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testReturnValueAndActionsAndLabels" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.022">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testReturnValueAndActionsAndLabels(TestLeftRecursionToolIssues.java:428)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650313
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testReturnValueAndActionsList1" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testReturnValueAndActionsList1(TestLeftRecursionToolIssues.java:351)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650335
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testReturnValueAndActionsList2" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.015">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testReturnValueAndActionsList2(TestLeftRecursionToolIssues.java:383)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650349
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testMultipleActions" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testMultipleActions(TestLeftRecursionToolIssues.java:663)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650364
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLeftRecursiveRuleRefWithArg" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0">
+    <skipped message="https://github.com/sharwell/antlr4/issues/19"/>
+  </testcase>
+  <testcase name="testTernaryExpr" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testTernaryExpr(TestLeftRecursionToolIssues.java:130)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650378
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testWhitespaceInfluence" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.051">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testWhitespaceInfluence(TestLeftRecursionToolIssues.java:613)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392
+]]></system-out>
+    <system-err><![CDATA[antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_TRUE], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=25, charPosition=6}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_FALSE], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=26, charPosition=6}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_NULL], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=31, charPosition=6}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_AND], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=22, charPosition=25}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_OR], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=23, charPosition=25}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_IN], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=21, charPosition=17}
+antlr reports warnings from [-visitor, -o, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392, -lib, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392, -encoding, UTF-8, /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4]
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_TRUE], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=25, charPosition=6}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_FALSE], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=26, charPosition=6}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_NULL], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=31, charPosition=6}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_AND], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=22, charPosition=25}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_OR], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=23, charPosition=25}
+Message{errorType=IMPLICIT_TOKEN_DEFINITION, args=[K_IN], e=null, fileName='/var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650392/Expr.g4', line=21, charPosition=17}
+error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testSemPred" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.009">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testSemPred(TestLeftRecursionToolIssues.java:84)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650441
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testSimple" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.012">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testSimple(TestLeftRecursionToolIssues.java:30)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650452
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testSemPredFailOption" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.011">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testSemPredFailOption(TestLeftRecursionToolIssues.java:100)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650464
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testLeftRecursiveRuleRefWithArg2" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0">
+    <skipped message="https://github.com/sharwell/antlr4/issues/19"/>
+  </testcase>
+  <testcase name="testLeftRecursiveRuleRefWithArg3" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0">
+    <skipped message="https://github.com/sharwell/antlr4/issues/19"/>
+  </testcase>
+  <testcase name="testMultipleActionsPredicatesOptions" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.014">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testMultipleActionsPredicatesOptions(TestLeftRecursionToolIssues.java:687)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650475
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+  <testcase name="testIsolatedLeftRecursiveRuleRef" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0">
+    <skipped message="https://github.com/sharwell/antlr4/issues/19"/>
+  </testcase>
+  <testcase name="testTernaryExprExplicitAssociativity" classname="org.antlr.v4.test.tool.TestLeftRecursionToolIssues" time="0.015">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.runTests(TestLeftRecursionToolIssues.java:692)
+	at org.antlr.v4.test.tool.TestLeftRecursionToolIssues.testTernaryExprExplicitAssociativity(TestLeftRecursionToolIssues.java:161)
+</failure>
+    <system-out><![CDATA[dir /var/folders/yr/jljyn54x2_s965_570vvdpqw0000gn/T/TestLeftRecursionToolIssues-1615276650489
+]]></system-out>
+    <system-err><![CDATA[error: Source option 6 is no longer supported. Use 7 or later.
+error: Target option 6 is no longer supported. Use 7 or later.
+]]></system-err>
+  </testcase>
+</testsuite>

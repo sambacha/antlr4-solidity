@@ -1,0 +1,238 @@
+-------------------------------------------------------------------------------
+Test set: org.antlr.v4.test.runtime.TestSemPredEvalParser
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 26, Errors: 0, Skipped: 0, Time elapsed: 0.223 sec <<< FAILURE! - in org.antlr.v4.test.runtime.TestSemPredEvalParser
+test2UnpredicatedAlts(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.test2UnpredicatedAlts(TestSemPredEvalParser.java:31)
+
+testNoTruePredsThrowsNoViableAlt(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testNoTruePredsThrowsNoViableAlt(TestSemPredEvalParser.java:274)
+
+testSimpleValidate(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testSimpleValidate(TestSemPredEvalParser.java:567)
+
+testToLeftWithVaryingPredicate(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testToLeftWithVaryingPredicate(TestSemPredEvalParser.java:646)
+
+testOrder(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testOrder(TestSemPredEvalParser.java:300)
+
+testActionsHidePredsInGlobalFOLLOW(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testActionsHidePredsInGlobalFOLLOW(TestSemPredEvalParser.java:128)
+
+testAtomWithClosureInTranslatedLRRule(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testAtomWithClosureInTranslatedLRRule(TestSemPredEvalParser.java:150)
+
+testDepedentPredsInGlobalFOLLOW(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testDepedentPredsInGlobalFOLLOW(TestSemPredEvalParser.java:179)
+
+testPredTestedEvenWhenUnAmbig_1(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testPredTestedEvenWhenUnAmbig_1(TestSemPredEvalParser.java:385)
+
+testPredTestedEvenWhenUnAmbig_2(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testPredTestedEvenWhenUnAmbig_2(TestSemPredEvalParser.java:408)
+
+testUnpredicatedPathsInAlt(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testUnpredicatedPathsInAlt(TestSemPredEvalParser.java:679)
+
+testPredicateDependentOnArg(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testPredicateDependentOnArg(TestSemPredEvalParser.java:434)
+
+testIndependentPredNotPassedOuterCtxToAvoidCastException(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testIndependentPredNotPassedOuterCtxToAvoidCastException(TestSemPredEvalParser.java:251)
+
+testPredsInGlobalFOLLOW(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testPredsInGlobalFOLLOW(TestSemPredEvalParser.java:489)
+
+testPredFromAltTestedInLoopBack_1(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testPredFromAltTestedInLoopBack_1(TestSemPredEvalParser.java:330)
+
+testPredFromAltTestedInLoopBack_2(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testPredFromAltTestedInLoopBack_2(TestSemPredEvalParser.java:362)
+
+testActionHidesPreds(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testActionHidesPreds(TestSemPredEvalParser.java:97)
+
+testPredicateDependentOnArg2(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testPredicateDependentOnArg2(TestSemPredEvalParser.java:461)
+
+testValidateInDFA(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testValidateInDFA(TestSemPredEvalParser.java:705)
+
+testDependentPredNotInOuterCtxShouldBeIgnored(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testDependentPredNotInOuterCtxShouldBeIgnored(TestSemPredEvalParser.java:206)
+
+testSimpleValidate2(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testSimpleValidate2(TestSemPredEvalParser.java:591)
+
+test2UnpredicatedAltsAndOneOrthogonalAlt(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.test2UnpredicatedAltsAndOneOrthogonalAlt(TestSemPredEvalParser.java:65)
+
+testRewindBeforePredEval(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testRewindBeforePredEval(TestSemPredEvalParser.java:515)
+
+testSimple(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testSimple(TestSemPredEvalParser.java:541)
+
+testDisabledAlternative(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testDisabledAlternative(TestSemPredEvalParser.java:226)
+
+testToLeft(org.antlr.v4.test.runtime.TestSemPredEvalParser)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:725)
+	at org.antlr.v4.test.tool.BaseTest.execParser(BaseTest.java:708)
+	at org.antlr.v4.test.runtime.TestSemPredEvalParser.testToLeft(TestSemPredEvalParser.java:617)
+
